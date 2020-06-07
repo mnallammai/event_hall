@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+        <head>
+           <style>
+    body{
+        text-align: center;
+        font-family: 'lato','sans-serif';
+         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("halls1.jpg");
+         color:white;
+         transform: norepeat;
+         background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    }
+    h2{
+        font-size:50px;
+    }
+    form{
+    position:absolute;    
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:50px;
+    }
+    a{
+    
+    color:white;
+    font-size:30px;
+    }
+</style>
+
+    </head>
+    <body>
+        <form method="post" action="login2.jsp" class="contact-form">
+            <div class="row">
+		<center><h2>REGISTER HALLS IN YOUR ZONE AND ENJOY</h2></center>
+	</div>
+	<div class="row">
+		<form method="post" action="reg.jsp" class="contact-form">
+		<div class="row">
+			<div class="col span-1-of-3">
+				<label>NAME</label>
+			</div>
+			<div class="col span-2-of-3">
+				<input type="text" name="name" id="name" placeholder="Your Name" required>
+			</div>
+
+
+                    <div class="row">
+			<div class="col span-1-of-3">
+				<label>Date of booking</label>
+			</div>
+			<div class="col span-2-of-3">
+                            <input type="date"  id="dob" name="dob"  required >
+			</div>
+		</div>
+                    <div class="row">
+			<div class="col span-1-of-3">
+				<label for="usrname">Venue to be booked</label>
+			</div>
+                        <div class="col span-2-of-3">
+				<select name="place" id="find-us">
+					<option value="Sri Angalaparameswari Mahal" selected>Sri Angalaparameswari Mahal</option>
+					<option value="Annupanadi Pilaimar Wedding Hall">Annupanadi Pilaimar Wedding Hall</option>
+					<option value="V.S.CHELLAM">V.S.CHELLAM SARASWATHY MAALIGAI A/c Marriage Hall</option>
+					<option value="Arun Selvamanikandan Marriage Hall">Arun Selvamanikandan Marriage Hall</option>
+                                        <option value="Sangu Ramakrishnan Mahal">Sangu Ramakrishnan Mahal</option>
+                                        <option value="seshu mahal">seshu mahal</option>
+                                        <option value="MR Mahal">MR Mahal</option>
+				</select>
+			</div>
+			
+		<div class="row">
+			<div class="col span-1-of-3">
+				<label>&nbsp;</label>
+			</div>
+			<div class="col span-2-of-3">
+				<input type="submit" value="send it!">
+			</div>
+                </div>
+                    
+        </form>
+</div>
+
+</body>
+        </html>
+			
